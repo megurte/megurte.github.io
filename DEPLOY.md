@@ -1,10 +1,12 @@
 # Публикация на GitHub Pages (бесплатно)
 
-Адрес после публикации: **https://megurte.github.io/**
+Адрес: **https://megurte.github.io/**
 
-GitHub Pages для «пользовательского» сайта требует ровно одно: публичный репозиторий с именем `<логин>.github.io`, у которого `index.html` лежит в корне ветки `main`. Никакой сборки, никаких GitHub Actions, домен и HTTPS бесплатные.
+Состояние на 2026-09-12: шаги 1–3 выполнены, репозиторий https://github.com/megurte/megurte.github.io создан, Pages включён (branch `main`, root, HTTPS), страница живая. Для повседневной работы нужен только раздел 4.
 
-## 1. Создать репозиторий
+GitHub Pages для «пользовательского» сайта требует ровно одно: публичный репозиторий с именем `<логин>.github.io`, у которого `index.html` лежит в корне ветки `main`. Никакой сборки, никаких GitHub Actions, домен и HTTPS бесплатные. Для такого репозитория GitHub включает Pages сам при первом пуше в `main`.
+
+## 1. Создать репозиторий (сделано)
 
 1. Открыть https://github.com/new
 2. Repository name: `megurte.github.io` (имя должно совпадать буква в букву)
@@ -12,7 +14,7 @@ GitHub Pages для «пользовательского» сайта требу
 4. Ничего не добавлять (README, .gitignore, лицензия) — папка уже собрана локально
 5. Create repository
 
-## 2. Залить папку
+## 2. Залить папку (сделано)
 
 Из папки `E:\Gamejam\megurte.github.io`:
 
@@ -24,9 +26,9 @@ git remote add origin https://github.com/megurte/megurte.github.io.git
 git push -u origin main
 ```
 
-## 3. Включить Pages
+## 3. Включить Pages (сделано автоматически)
 
-Settings → Pages → Build and deployment:
+Если вдруг выключится: Settings → Pages → Build and deployment:
 
 - Source: **Deploy from a branch**
 - Branch: **main**, folder **/ (root)**
