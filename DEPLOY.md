@@ -1,6 +1,7 @@
 # Публикация на GitHub Pages (бесплатно)
 
 Адрес: **https://megurte.github.io/**
+Статистика (GoatCounter): **https://megurt.goatcounter.com/** (подробности в разделе 6)
 
 Состояние на 2026-09-12: шаги 1–3 выполнены, репозиторий https://github.com/megurte/megurte.github.io создан, Pages включён (branch `main`, root, HTTPS), страница живая. Для повседневной работы нужен только раздел 4.
 
