@@ -1,20 +1,20 @@
 :root {
   color-scheme: light;
 
-  --paper: #fbfcfb;
+  --paper: #e6ece9;
   --ink: #35565a;
-  --ink-soft: #6b8a8d;
-  --line: rgb(53 86 90 / 0.28);
-  --shadow: rgb(53 86 90 / 0.14);
+  --ink-soft: #62807f;
+  --line: rgb(53 86 90 / 0.3);
+  --shadow: rgb(53 86 90 / 0.16);
 
-  --mint: #ddf3ea;
-  --seafoam: #d3efe6;
-  --aqua: #d5f0f0;
-  --turquoise: #d8f1ee;
-  --sky: #d9ebf6;
-  --powder: #e1ecf7;
-  --foam: #e6f6ef;
-  --cloud: #eef5f3;
+  --mint: #cde6da;
+  --seafoam: #c4e1d6;
+  --aqua: #c6e2e2;
+  --turquoise: #c9e4e0;
+  --sky: #cbdeeb;
+  --powder: #d2dfec;
+  --foam: #d6e9e0;
+  --cloud: #dde6e3;
 
   --font-hand: "Patrick Hand", "Segoe Print", "Comic Sans MS", cursive;
   --font-title: "Caveat", "Segoe Script", cursive;
@@ -72,10 +72,10 @@ body {
   inset: 0;
   background: radial-gradient(
     closest-side,
-    rgb(var(--c) / 0.34) 0%,
-    rgb(var(--c) / 0.28) 52%,
-    rgb(var(--c) / 0.6) 86%,
-    rgb(var(--c) / 0.42) 94%,
+    rgb(var(--c) / 0.3) 0%,
+    rgb(var(--c) / 0.25) 52%,
+    rgb(var(--c) / 0.54) 86%,
+    rgb(var(--c) / 0.38) 94%,
     rgb(var(--c) / 0) 100%
   );
   filter: url(#watercolor);
