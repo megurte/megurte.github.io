@@ -60,7 +60,7 @@ git add . && git commit -m "update links" && git push
 
 ## 6. Аналитика (GoatCounter)
 
-Дашборд: **https://megurt.goatcounter.com** (аккаунт заведён 2026-09-12, вход по почте `mega.arte.99@gmail.com`, дашборд приватный).
+Дашборд: **https://megurt.goatcounter.com** (аккаунт заведён 2026-09-12, дашборд приватный, виден только после входа).
 
 Счётчик подключён в `index.html` на адрес `https://megurt.goatcounter.com/count`, каждая кнопка шлёт событие вида `click-x`, `click-discord`, `click-steam`, `click-coffee`, `click-mail`, `click-copy-mail`. Просмотры и события проверены на живой странице.
 
